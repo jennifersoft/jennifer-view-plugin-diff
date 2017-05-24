@@ -1,0 +1,19 @@
+<div id="diff-main">
+    <div class="top" style="display: none;">
+        <strong>Context size (optional):</strong> <input type="text" id="contextSize" value="" />
+    </div>
+    <div class="textInput" style="display: none;">
+        <h2 id="baseTextName">$i18n.baseText</h2>
+        <textarea id="baseText">$baseText</textarea>
+    </div>
+    <div class="textInput spacer" style="display: none;">
+        <h2 id="newTextName">$i18n.newText</h2>
+        <textarea id="newText">$newText</textarea>
+    </div>
+    <div class="viewType">
+        <input type="radio" name="_viewtype" id="sidebyside" onclick="diffUsingJS(0);" /> <label for="sidebyside">$i18n.sideDiff</label>
+        &nbsp; &nbsp;
+        <input type="radio" name="_viewtype" id="inline" onclick="diffUsingJS(1);" checked /> <label for="inline">$i18n.inlineDiff</label>
+    </div>
+    <div id="diffoutput"></div>
+</div>

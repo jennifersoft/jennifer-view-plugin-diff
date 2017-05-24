@@ -1,0 +1,39 @@
+#diff-main {
+    padding: 5px;
+}
+
+#diff-main .top {
+    text-align: center;
+}
+
+#diff-main .textInput {
+    display: block;
+    width: 49%;
+    float: left;
+}
+
+#diff-main textarea {
+    width:100%;
+    height:300px;
+}
+
+#diff-main label:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+#diff-main .spacer {
+    margin-left: 10px;
+}
+
+#diff-main .viewType {
+    font-size: 12px;
+    clear: both;
+    text-align: center;
+    padding: 5px;
+    margin-bottom: 3px;
+}
+
+#diff-main #diffoutput {
+    width: 100%;
+}
