@@ -39,9 +39,13 @@
 }
 
 #diff-main #diffoutput > .diff:not(.inlinediff) {
-    table-layout: fixed;
+    table-layout: fixed !important;
 }
 
 #diff-main #diffoutput > .diff:not(.inlinediff) thead .texttitle {
     width: 45% !important;
+}
+
+#diff-main #diffoutput > .diff tbody td {
+    word-break: break-all !important;
 }
