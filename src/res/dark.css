@@ -1,0 +1,7 @@
+#diff-main .viewType label {
+    color: #888 !important;
+}
+
+#diff-main #diffoutput tbody td.equal {
+    color: #888 !important
+}

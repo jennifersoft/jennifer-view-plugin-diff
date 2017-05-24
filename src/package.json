@@ -5,6 +5,7 @@
   "mainUrl": "/plugin/diff",
   "mainTpl": "tpl/index.vm",
   "i18n": [ "i18n/message_ko.properties", "i18n/message_en.properties" ],
-  "resources" : [ "res/jsdifflib/difflib.js", "res/jsdifflib/diffview.css", "res/jsdifflib/diffview.js", "res/index.css", "res/index.js" ],
-  "thumbnails": [ "img/jennifer.png", "img/dark.png" ]
+  "resources": [ "res/jsdifflib/difflib.js", "res/jsdifflib/diffview.css", "res/jsdifflib/diffview.js", "res/index.css", "res/index.js" ],
+  "thumbnails": [ "img/jennifer.png", "img/dark.png" ],
+  "styles": [ "res/jennifer.css", "res/dark.css" ]
 }

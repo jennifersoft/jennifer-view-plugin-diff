@@ -37,3 +37,11 @@
 #diff-main #diffoutput {
     width: 100%;
 }
+
+#diff-main #diffoutput > .diff:not(.inlinediff) {
+    table-layout: fixed;
+}
+
+#diff-main #diffoutput > .diff:not(.inlinediff) thead .texttitle {
+    width: 45% !important;
+}
