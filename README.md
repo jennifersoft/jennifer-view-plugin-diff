@@ -10,7 +10,11 @@ Execute the following in the Jennifer management screen.
  5. Enter the plugin path directly or upload the file.
 
  
-## Supported View server version
+## Supported version
  
- 1. >= 1.0.1 : Greater than or equal to version 5.3.0
- 2. == 1.0.0 : Greater than or equal to version 5.2.3
+Different versions of the server support different plug-in versions.
+ 
+| Plugin version           | Server version |
+| ------------- |:-------------:|
+| 1.0.1       | Greater than or equal to version 5.3.0 |
+| 1.0.0   | Greater than or equal to version 5.2.3 |
