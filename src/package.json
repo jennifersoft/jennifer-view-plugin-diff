@@ -1,7 +1,7 @@
 {
-  "title": "pluginTitle",
-  "description": "pluginDescription",
-  "version": "5.2.2.9",
+  "title": "Source-Diff Tool",
+  "description": "You can compare source code change history.",
+  "version": "5.3.0",
   "mainUrl": "/plugin/diff",
   "mainTpl": "tpl/index.vm",
   "i18n": [ "i18n/message_ko.properties", "i18n/message_en.properties" ],

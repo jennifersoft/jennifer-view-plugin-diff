@@ -1,13 +1,16 @@
 ## Getting started
 
-You must modify the configuration file of the view server. (conf/server_view.conf)
-```
-plugin_class_path = ${PLUGIN_PROJECT_PATH}/dist/jennifer-view-plugin-diff-1.0.0.jar
-```
+Execute the following in the Jennifer management screen.
 
-After modifying the configuration file, you must restart the view server.
+ 1. Extension & Notice > Adapter and Plugin.
+ 2. Select the plugin tab.
+ 2. Click the Add button.
+ 3. Select the 'PAGE' type.
+ 4. Enter the 'anything' ID.
+ 5. Enter the plugin path directly or upload the file.
 
-
-## How to use
-
-You can use it in Source Code (resource) History analysis page.
+ 
+## Supported View server version
+ 
+ 1. >= 1.0.1 : Greater than or equal to version 5.3.0
+ 2. == 1.0.0 : Greater than or equal to version 5.2.3

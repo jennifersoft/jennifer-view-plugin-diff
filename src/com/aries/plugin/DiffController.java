@@ -1,4 +1,4 @@
-package com.jennifersoft.plugin;
+package com.aries.plugin;
 
 import com.jennifersoft.view.web.BaseController;
 import org.json.JSONException;
